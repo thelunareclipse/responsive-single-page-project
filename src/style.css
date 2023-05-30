@@ -28,6 +28,10 @@ a {
   border-radius: 60px;
 }
 
+a:hover {
+  cursor: pointer;
+}
+
 .arrow-button {
   margin-top: 40px;
 }
