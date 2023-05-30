@@ -1,0 +1,33 @@
+:root {
+  --primary-color: #72877d;
+}
+
+body {
+  font-family: "MuseoModerno", cursive;
+}
+
+header {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url("hero-image.jpeg");
+  background-size: cover;
+  background-position: center;
+
+  padding: 130px;
+  text-align: center;
+  color: white;
+}
+
+h1 {
+  font-size: 100px;
+}
+
+a {
+  background-color: white;
+  color: var(--primary-color);
+  padding: 18px;
+  border-radius: 60px;
+}
+
+.arrow-button {
+  margin-top: 40px;
+}
