@@ -39,6 +39,15 @@ a:hover {
   cursor: pointer;
 }
 
+li {
+  margin-bottom: 14px;
+}
+
 .arrow-button {
   margin-top: 40px;
+}
+
+.footer {
+  display: grid;
+  grid-template-columns: 2fr 2fr 2fr;
 }
