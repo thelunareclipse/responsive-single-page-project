@@ -22,12 +22,11 @@ h1 {
   line-height: 1.5;
 }
 
-h2,
 h3 {
-  line-height: 1.5;
+  margin: 0 auto;
 }
 
-a {
+.arrow {
   background-color: white;
   color: var(--primary-color);
   padding: 18px;
@@ -39,8 +38,16 @@ a:hover {
   cursor: pointer;
 }
 
+ul {
+  list-style-type: none;
+  margin: 0 auto;
+  padding-left: 8px;
+}
+
 li {
   margin-bottom: 14px;
+  font-size: 20px;
+  color: var(--primary-color);
 }
 
 .arrow-button {
@@ -50,4 +57,9 @@ li {
 .footer {
   display: grid;
   grid-template-columns: 2fr 2fr 2fr;
+}
+
+.ft-head {
+  color: var(--primary-color);
+  padding-left: 8px;
 }
