@@ -60,6 +60,10 @@ footer .arrow-button {
   margin-top: 40px;
 }
 
+img {
+  border-radius: 18px;
+}
+
 .section-1 {
   display: grid;
   grid-template-columns: 1fr 1fr;
