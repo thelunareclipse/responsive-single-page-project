@@ -1,9 +1,10 @@
 :root {
   --primary-color: #72877d;
+  --main-font: "MuseoModerno", cursive;
 }
 
 body {
-  font-family: "MuseoModerno", cursive;
+  font-family: var(--main-font);
   margin: 0;
   background-color: var(--primary-color);
 }
@@ -54,6 +55,7 @@ li {
   margin-bottom: 14px;
   font-size: 20px;
   font-weight: 900;
+  font-family: "Quicksand", sans-serif;
 }
 
 footer .arrow-button {
@@ -73,8 +75,10 @@ img {
 }
 
 .section-1 p {
-  font-size: 19px;
+  font-size: 22px;
   margin: 0;
+  font-family: "Zen Maru Gothic", sans-serif;
+  color: var(--primary-color);
 }
 
 .footer {
