@@ -5,6 +5,7 @@
 body {
   font-family: "MuseoModerno", cursive;
   margin: 0;
+  background-color: var(--primary-color);
 }
 
 header {
@@ -38,20 +39,38 @@ a:hover {
   cursor: pointer;
 }
 
+footer {
+  color: white;
+}
+
 ul {
   list-style-type: none;
   margin: 0 auto;
   padding-left: 8px;
+  line-height: 0.5;
 }
 
 li {
   margin-bottom: 14px;
   font-size: 20px;
-  color: var(--primary-color);
+  font-weight: 900;
 }
 
-.arrow-button {
+footer .arrow-button {
   margin-top: 40px;
+}
+
+.section-1 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 10px;
+  padding: 50px 100px;
+  background-color: white;
+}
+
+.section-1 p {
+  font-size: 19px;
+  margin: 0;
 }
 
 .footer {
@@ -60,6 +79,7 @@ li {
 }
 
 .ft-head {
-  color: var(--primary-color);
   padding-left: 8px;
+  margin-bottom: 5px;
+  font-size: 25px;
 }
