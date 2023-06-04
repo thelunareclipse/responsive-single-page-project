@@ -84,10 +84,16 @@ img {
 .footer {
   display: grid;
   grid-template-columns: 2fr 2fr 2fr;
+  padding: 20px 20px;
 }
 
 .ft-head {
   padding-left: 8px;
   margin-bottom: 5px;
   font-size: 25px;
+}
+
+.ft-logo {
+  font-size: 28px;
+  text-align: center;
 }
