@@ -112,6 +112,7 @@ section h3 {
 .card-content {
   display: grid;
   grid-template-columns: 2fr 1fr;
+  margin-top: 5px;
 }
 
 .footer {
