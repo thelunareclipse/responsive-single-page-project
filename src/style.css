@@ -135,11 +135,11 @@ section h3 {
 .ft-head {
   padding-left: 8px;
   margin-bottom: 5px;
-  font-size: 25px;
+  font-size: 35px;
 }
 
-.ft-logo {
-  font-size: 28px;
+footer h2 {
+  font-size: 80px;
   text-align: center;
 }
 
