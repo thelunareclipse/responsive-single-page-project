@@ -13,8 +13,9 @@ header {
   background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
     url("hero-image.jpeg");
   background-size: cover;
+  background-repeat: no-repeat;
   background-position: center;
-  padding: 235px;
+  padding: 235px 0;
   text-align: center;
   color: white;
 }
@@ -40,6 +41,7 @@ header .arrow-button {
 h1 {
   font-size: 100px;
   line-height: 1.5;
+  text-align: center;
 }
 
 h3 {
@@ -101,7 +103,7 @@ section h3 {
   background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
     url("Following the Moon.jpeg");
   font-family: "Zen Maru Gothic", sans-serif;
-  font-size: 75px;
+  font-size: 71.5px;
   border-radius: 18px;
   height: 410px;
   background-position: center;
@@ -115,15 +117,6 @@ section h3 {
   padding: 40px 40px;
   color: var(--primary-color);
   background-color: white;
-}
-
-@media (max-width: 800px) {
-  .section-1 {
-    grid-template-columns: 1fr;
-  }
-  .section-2 {
-    grid-template-columns: 1fr;
-  }
 }
 
 .card-content {
@@ -148,4 +141,49 @@ section h3 {
 .ft-logo {
   font-size: 28px;
   text-align: center;
+}
+
+@media (max-width: 800px) {
+  header {
+    padding: 150px 0;
+  }
+  header h1 {
+    font-size: 60px;
+  }
+  header h2 {
+    font-size: 20px;
+  }
+  header h3 {
+    font-size: 20px;
+  }
+  .section-1 {
+    grid-template-columns: 1fr;
+    padding: 70px 10px;
+  }
+  .section-1 h1 {
+    font-size: 65px;
+  }
+  .section-2 {
+    grid-template-columns: 1fr;
+    padding: 50px 10px;
+  }
+  .section-2 img {
+    height: 550px;
+    width: 100%;
+  }
+  footer {
+    padding: 50px 20px;
+  }
+  .footer {
+    grid-template-columns: 1fr 1fr;
+  }
+  .footer .ft-head {
+    font-size: 23px;
+  }
+  .footer li {
+    font-size: 15px;
+  }
+  .footer h2 {
+    font-size: 30px;
+  }
 }
